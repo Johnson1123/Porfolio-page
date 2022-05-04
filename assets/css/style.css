@@ -749,7 +749,7 @@ input[type=submit] {
     margin: 10px 0;
   }
   .my-job{
-    font-size: var(--font-18);
+    font-size: var(--font-16);
     margin: 15px 0;
   }
   .about-words{
