@@ -807,6 +807,9 @@ input[type=submit] {
     min-height: 400px;
     height: auto;
   }
+  .skills{
+    margin: 20px 0 30px;
+  }
   .Experience-box{
     padding: 10px 15px;
     margin: 0;
