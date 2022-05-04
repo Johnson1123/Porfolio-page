@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <style>
+          form{
+               display: flex;
+               flex-direction: column;
+               width: 250px;
+          }
+          input{
+               height: 20px;
+               margin: 5px 0;
+          }
+          button{
+               width: fit-content;
+               padding: 5px 20px;
+               margin: 0 auto;
+               background-color: blue;
+               border: none;
+               color: #fff;
+          }
+     </style>
+</head>
+<body>
+     <form action="#!">
+          <input type="text" placeholder="username" class="user-value">
+          <input type="password" placeholder="Password" class="pass-value">
+          <button type="submit" id="sub">Submit</button>
+          
+     </form>
+     <p class="message" id="message"></p>
+
+
+     <script>
+         
+          let user_value = document.querySelector(".user-value");
+          let pass_value = document.querySelector(".pass-value");
+          let sub = document.getElementById("sub");
+
+         
+          if(window.localStorage){
+               localStorage.setItem("user","Damilola");
+               localStorage.setItem("pass","1123");
+               
+               let user = localStorage.getItem("user");
+               let pass = localStorage.getItem("pass");
+                     let mess = document.getElementById("message");
+               sub.addEventListener("click", () => {
+               if(user == user_value.value && pass == pass_value.value){
+                    mess.innerHTML = "You have log in successfully!!!";
+               }
+               else{
+                    mess.innerHTML = "Username or password is not correct";
+               }
+                });
+          }else{
+               console.log("unsupported broswer !!");
+          }
+
+     </script>
+</body>
+</html>

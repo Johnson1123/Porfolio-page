@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>front-end Developer</title>
+
+     <!-- link bootstrap css -->
+     <link rel="stylesheet" href="assets/js/bootstrap-5/css/bootstrap.min.css">
+
+     <!-- link to font awesome -->
+     <link rel="stylesheet" href="assets/font/font-awesome-4.7.0/css/font-awesome.min.css">
+
+     <!-- link to stylesheet -->
+     <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+     <!-- website header -->
+     <header id="home">
+          <div class="header-con">
+               <div class="navbar" id="navbar">
+                    <div class="topnav" id="myTopnav">
+                        <a href="#home" class="">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#work">work</a>
+                        <a href="#contact">contact</a>
+                        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                             <i class="fa fa-bars"></i>
+                        </a>
+                    </div>
+               </div>
+               <div class="banner-con inner">
+                    <div class="banner-inner flex">
+                         <div class="my-greating w-40 flex">
+                              <div class="greeting-wrapper">
+                                   <div class="hello font">Hello, I'm</div>
+                                   <div class="my-name font">Johnson Onifade</div>
+                                   <div class="my-job font">Fontend Web Developer</div>
+                                   <div class="btns flex">
+                                        <button class="btn"><a href="#about" class="">About Me</a></button>
+                                        <button class="btn"><a href="#work">Portfolio</a></button>
+                                   </div>
+                              </div>
+                         </div>
+                         <div class="my-image flex w-60">
+                              <div class="my-image-con">
+                                   <img src="assets/images/mobile-image/Onifade_Johnson.jpeg"alt="">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </header>
+
+     <!-- about me area -->
+     <section id="about" class="about page">
+          <div class="flex about-con inner">
+               <h3 class="title font">About me</h3>
+               <div class="about-inner flex">
+                    <div class="my-image about-img flex w-30">
+                              <div class="my-image-con about-img-con">
+                                   <img src="assets/images/mobile-image/onifade_johnson.jpeg"alt="">
+                              </div>
+                    </div>
+                    <div class="my-proffession w-50">
+                         <p class="about-words font">
+                             Experienced Front-end developer with 1+ years of experience in IT industry. Exellent reputation for resolving problems and awesome designs. Eager to contribute to team success through had work, attention to detail and excellent communication skills. A clear understanding of fron-end development. 
+                         </p>
+                         <div class="skill-con">
+                              <h4 class="sub-title font">Skills</h4>
+                              <div class="skills">
+                                   <button class="skill btn">Html</button>
+                                   <button class="skill btn">Css</button>
+                                   <button class="skill btn">Javascript</button>
+                                   <button class="skill btn">Jquery</button>
+                                   <button class="skill btn">React</button>
+                                   <button class="skill btn">Sass</button>
+                                   <button class="skill btn">php</button>
+                                   <button class="skill btn">Bootstrap</button>
+                              </div>
+                         </div>
+                         <div class="tab">
+                             <button class="tablinks font" onclick="openCity(event, 'Education')" id="defaultOpen">Education</button>
+                             <button class="tablinks font" onclick="openCity(event, 'Experience')">Experience</button>
+                          </div>
+
+                         <!-- Tab content -->
+                         <div id="Education" class="tabcontent">
+                               <div class="Experience-inner">
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2021 - 2022</p>
+                                          <h3 class="experience-sub-title font">NYSC - <span>Osun State</span></h3>
+                                          <p class="Experience-text font">
+                                                 I am currently observing my National youth service at Minisry Of transportation Abeere State Secretariat, Osun State.
+                                                 I was able to extend my leadership role to become the general Secretary of my CDS goup.
+                                     </div>
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2014 - 2021</p>
+                                          <h3 class="experience-sub-title font">B.TECH - <span>Lautech</span></h3>
+                                          <p class="Experience-text font">
+                                                 I attended Ladoke Akintola Unversity of technology where I study Transport Management and graduated with second class upper. My coding career stated while on campus with my team. Although, it was not a smooth journey but to God be the glory. 
+                                     </div>
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2008 - 2014</p>
+                                          <h3 class="experience-sub-title font"> High School - <span>Iganna High School</span></h3>
+                                          <p class="Experience-text font">
+                                               Iganna High school is located in my own town. My secondary school days was full of responsibility and duties, my greatest responsibility starts when I was announced as the new senoir prefect have been serve as the class representative for five years.
+                                     </div>
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2002 - 2008</p>
+                                          <h3 class="experience-sub-title font">Basic School- <span>Baptist Basic School</span></h3>
+                                          <p class="Experience-text font">
+                                               Baptist Basic School, Iganna is suitable at Oke-afin Iganna. Being a Teacher's son make my Basic School days lifely and fun witout much responsibility and fear.
+                                     </div>
+                              </div>
+                         </div>
+                         <div id="Experience" class="tabcontent">
+                                <div class="Experience-inner">
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2021 - 2022</p>
+                                          <h3 class="experience-sub-title font">Senior Developer - <span>Cycle breeze</span></h3>
+                                          <p class="Experience-text font">
+                                                 TheJus Group, is a company which is owned and managed by family member. We provide all type of entrepreneur needs ranging from small-scale and medium-scale sized product.
+                                     </div>
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2012 - 2018</p>
+                                          <h3 class="experience-sub-title font">Intermi Developer - <span>Cycle breeze</span></h3>
+                                          <p class="Experience-text font">
+                                                 TheJus Group, is a company which is owned and managed by family member. We provide all type of entrepreneur needs ranging from small-scale and medium-scale sized product.
+                                     </div>
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2021 - 2022</p>
+                                          <h3 class="experience-sub-title font">Web Developer - <span>Cycle breeze</span></h3>
+                                          <p class="Experience-text font">
+                                                 TheJus Group, is a company which is owned and managed by family member. We provide all type of entrepreneur needs ranging from small-scale and medium-scale sized product.
+                                     </div>
+                                     <div class="Experience-box">
+                                          <p class="experience-year font">2021 - 2022</p>
+                                          <h3 class="experience-sub-title font">Web Developer - <span>Cycle breeze</span></h3>
+                                          <p class="Experience-text font">
+                                                 TheJus Group, is a company which is owned and managed by family member. We provide all type of entrepreneur needs ranging from small-scale and medium-scale sized product.
+                                     </div>
+                                </div>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- work area -->
+     <section id="work" class="work page">
+          <div class="flex inner work-con">
+              <h3 class="title">Recent Work</h3>
+              <div class="inner-con  flex">
+                    <div class="work-box">
+                        <div class="work-img-con flex">
+                             <img src="assets/images/large-image/tindog-website.png" class="image" alt="">
+                        </div>
+                        <h3 class="sub-title font work-sub">Tindog page</h3>
+                        <a class="btn work-btn font" href="http://johnson1123.github.io/tindog/" id="myBtn">View Project</a>
+                    </div>
+                    <div class="work-box">
+                        <div class="work-img-con flex">
+                             <img src="assets/images/large-image/Furniture-website.png" class="image" alt="">
+                        </div>
+                        <h3 class="sub-title font work-sub">Furniture Store</h3>
+                        <a class="btn work-btn font" href="http://johnson1123.github.io/furniture/">View Project</a>
+                    </div>
+                    <div class="work-box">
+                        <div class="work-img-con flex">
+                             <img src="assets/images/large-image/blog-website.png" class="image" alt="">
+                        </div>
+                        <h3 class="sub-title font work-sub">Blog website</h3>
+                        <a class="btn work-btn font" href="http://johnson1123.github.io/blog-2/">View Project</a>
+                    </div>
+                    </div>
+              </div>
+          </div>
+     </section>
+
+     <!-- contact area -->
+     <section id="contact" class="contact page">
+          <div class="flex inner contact-con">
+               <h3 class="title">Contact me</h3>
+               <div class="inner-con flex">
+                    <div class="inputs-con w-60">
+                         <form action="return false">
+                             <div class="row">
+                               <div class="col-75">
+                                 <input type="email" id="email" name="firstname" placeholder="Your email..">
+                               </div>
+                                <div class="col-25">
+                                 <label for="email" class="font label">Email</label>
+                               </div>
+                             </div>
+                             <div class="row">
+                                   <div class="col-75">
+                                     <input type="tel" id="phone" name="lastname" placeholder="phone number..">
+                                   </div>
+                                   <div class="col-25">
+                                     <label for="phone" class="font label">Phone</label>
+                                   </div>
+                             </div>
+                             <div class="row">
+                                   <div class="col-75">
+                                     <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                                   </div>
+                                   <div class="col-25">
+                                     <p class="font label">Follow me</p>
+                                     <div class="label-sub labe-icon">
+                                          <a href="" class="social-icon-link"><span class="fa fa-facebook"></span></a>
+                                          <a href="" class="social-icon-link"><span class="fa fa-instagram"></span></a>
+                                          <a href="" class="social-icon-link"><span class="fa fa-linkedin"></span></a>
+                                          <a href="" class="social-icon-link"><span class="fa fa-twitter"></span></a>
+                                          <a href="" class="social-icon-link"><span class="fa fa-pinterest"></span></a>
+                                          <a href="" class="social-icon-link"><span class="fa fa-youtube-play"></span></a>
+                                     </div>
+                                   </div>
+                             </div>
+                            <div class="row">
+                                  
+                                  <div class="col-75">
+                                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                                  </div>
+                            </div>
+                            <div class="row">
+                                 <input type="submit" value="Submit">
+                            </div>
+                          </form>
+
+
+                    </div>
+               </div>
+          </div>
+     </section>
+
+     <!-- sticky top arrow -->
+     <div class="sticky" id="sticky">
+          <a href="#home"><span class="fa fa-arrow-up">
+          </span></a>
+     </div>
+
+     <!-- modeal Items -->
+     <div id="myModal" class="modal">
+           <!-- Modal content -->
+           <div class="modal-content ">
+             <div class="colse-time flex">
+                  <span class="close">&times;</span>
+             </div>
+             <div class="modal-page flex">
+                  <div class="modal-img-con">
+                       <img src="assets/images/large-image/nathan-da-silva-FO7kUmBYVi0-unsplash.jpg" alt="">
+                    
+                  </div>
+                  <div class="modal-text font">
+                       TheJus Group, is a company which is owned and managed by family member. We provide all type of entrepreneur needs ranging from small-scale and medium-scale sized product.TheJus Group, is a company which is owned and managed by family member. We provide all type of entrepreneur needs ranging from small-scale and medium-scale sized product.TheJus Group, is a company which is owned and managed by family member. We provide all type of entrepreneur needs ranging from small-scale and medium-scale sized product.
+                  </div>
+                  <div class="modal-date">
+                       <div class="modal-detail">
+                            <p class="detail-name font">Name: </p>
+                            <p class="detail-contact font">onifade johnson </p>
+                       </div>
+                       <div class="modal-detail">
+                            <p class="detail-name font">Email: </p>
+                            <p class="detail-contact font">onifadejohnson2014@gmail.com </p>
+                       </div>
+                       <div class="modal-detail">
+                            <p class="detail-name font">Website: </p>
+                            <p class="detail-contact font">onifadejohnson.tk </p>
+                       </div>
+                       <div class="modal-detail">
+                            <p class="detail-name  font">Date: </p>
+                            <p class="detail-contact font">20 - 10 - 2022</p>
+                       </div>
+                  </div>
+             </div>
+           </div>
+     </div>
+     <!-- link to boostrap  js -->
+     <script src="assets/js/bootstrap-5/js/bootstrap.min.js"></script>
+
+     <!-- link to javascript -->
+     <script src="assets/js/index.js"></script>
+</body>
+</html>
